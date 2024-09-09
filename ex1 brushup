@@ -14,8 +14,10 @@ def c_to_f(celsius):
 c = [1,2,3,4,5]
 result = c_to_f(celsius=c)
 
+print(fewjpginrewogojpojpoiinerwògnerhioihwion)
+
 if isinstance(result, (int, float)):
     print(f'{c} celcius is {result} f')
 else:
     for i in range(len(c)):
-        print(f'{5 * 10} celcius is {result[i]} f')
+        print(f'{c[i]} celcius is {result[i]} f')
