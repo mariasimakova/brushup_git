@@ -1,0 +1,21 @@
+def c_to_f(celsius):
+    if isinstance(celsius, str):
+        raise ValueError(f'{celsius} not a number')
+    elif isinstance(celsius, (int, float)):
+        result=celsius*9/5+32
+    elif isinstance(celsius, list):
+        result = []
+        for value in celsius:
+            fahrenheit=value*9/5+32
+            result.append(fahrenheit)
+    
+    return result
+
+c = [1,2,3,4,5]
+result = c_to_f(celsius=c)
+
+if isinstance(result, (int, float)):
+    print(f'{c} celcius is {result} f')
+else:
+    for i in range(len(c)):
+        print(f'{5 * 10} celcius is {result[i]} f')
