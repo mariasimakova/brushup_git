@@ -14,7 +14,7 @@ def c_to_f(celsius):
 c = [1,2,3,4,5]
 result = c_to_f(celsius=c)
 
-print(fewjpginrewogojpojpoiinerwògnerhioihwion)
+print(removed)
 
 if isinstance(result, (int, float)):
     print(f'{c} celcius is {result} f')
